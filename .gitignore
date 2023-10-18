@@ -1,0 +1,9 @@
+/.idea/
+.terraform
+/test_data/*/.terraform.lock.hcl
+/test_data/*/terraform.tfstate
+/test_data/*/terraform.tfstate.backup
+/.pytest_cache/
+__pycache__
+/tf-apply-trace.txt
+/tf-destroy-trace.txt
