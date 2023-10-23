@@ -1,5 +1,7 @@
 # Module terraform-aws-ci-cd
 
+[ci-cd on Terraform Registry](https://registry.terraform.io/modules/infrahouse/ci-cd/aws/latest).
+
 The module creates necessary resources to enable Terraform CI/CD in a Terraform root module.
 
 The resources are:
@@ -70,10 +72,10 @@ No resources.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_admin-role"></a> [admin-role](#output\_admin-role) | n/a |
-| <a name="output_bucket_arn"></a> [bucket\_arn](#output\_bucket\_arn) | n/a |
-| <a name="output_bucket_name"></a> [bucket\_name](#output\_bucket\_name) | n/a |
-| <a name="output_github-role"></a> [github-role](#output\_github-role) | n/a |
-| <a name="output_lock_table_arn"></a> [lock\_table\_arn](#output\_lock\_table\_arn) | n/a |
-| <a name="output_lock_table_name"></a> [lock\_table\_name](#output\_lock\_table\_name) | n/a |
-| <a name="output_state-manager-role"></a> [state-manager-role](#output\_state-manager-role) | n/a |
+| <a name="output_admin-role"></a> [admin-role](#output\_admin-role) | ARN of the `ih-tf-{var.repo_name}-admin` role |
+| <a name="output_bucket_arn"></a> [bucket\_arn](#output\_bucket\_arn) | ARN of the created S3 bucket. |
+| <a name="output_bucket_name"></a> [bucket\_name](#output\_bucket\_name) | Name of the created S3 bucket. |
+| <a name="output_github-role"></a> [github-role](#output\_github-role) | ARN of the `ih-tf-{var.repo_name}-github` role |
+| <a name="output_lock_table_arn"></a> [lock\_table\_arn](#output\_lock\_table\_arn) | ARN of the created DynamoDB table for state locks. |
+| <a name="output_lock_table_name"></a> [lock\_table\_name](#output\_lock\_table\_name) | Name of the created DynamoDB table for state locks. |
+| <a name="output_state-manager-role"></a> [state-manager-role](#output\_state-manager-role) | ARN of the `ih-tf-{var.repo_name}-state-manager` role |
