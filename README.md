@@ -1,5 +1,7 @@
 # Module terraform-aws-ci-cd
 
+[ci-cd on Terraform Registry](https://registry.terraform.io/modules/infrahouse/ci-cd/aws/latest).
+
 The module creates necessary resources to enable Terraform CI/CD in a Terraform root module.
 
 The resources are:
